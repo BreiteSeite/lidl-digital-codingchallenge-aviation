@@ -62,6 +62,6 @@ final class Passenger
 
     public function enterAirportViaGate(Gate $gate)
     {
-        $gate->passengerPassGateToAirport($this);
+        $gate->passPassengerToAirport($this);
     }
 }

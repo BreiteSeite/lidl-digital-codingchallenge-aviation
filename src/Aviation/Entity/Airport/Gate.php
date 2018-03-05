@@ -39,7 +39,7 @@ final class Gate implements Location
         return 'Gate ' . $this->name;
     }
 
-    public function passengerPassGateToAirport(Passenger $passenger)
+    public function passPassengerToAirport(Passenger $passenger)
     {
         if (!$this->connectedAircraft instanceof Aircraft) {
             throw new \RuntimeException('Gate is not connected to the aircraft');
