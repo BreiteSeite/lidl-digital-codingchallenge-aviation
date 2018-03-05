@@ -9,7 +9,7 @@ use BreiteSeite\LidlDigital\Aviation\Entity\Airport\Gate;
 use BreiteSeite\LidlDigital\Aviation\Entity\Airport\Location;
 use Ramsey\Uuid\Uuid;
 
-final class Aircraft
+class Aircraft
 {
     /** @var Uuid */
     private $id;

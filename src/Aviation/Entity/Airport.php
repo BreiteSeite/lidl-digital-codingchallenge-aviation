@@ -11,7 +11,7 @@ use BreiteSeite\LidlDigital\Aviation\Entity\Airport\Gate;
 use BreiteSeite\LidlDigital\Aviation\Entity\Airport\Runway;
 use Ramsey\Uuid\Uuid;
 
-final class Airport
+class Airport
 {
     const SHORTCODE_BERLIN_WILLY_BRANDT = 'BER';
 

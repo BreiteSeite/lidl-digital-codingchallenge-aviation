@@ -5,7 +5,7 @@ namespace BreiteSeite\LidlDigital\Aviation\Entity;
 use BreiteSeite\LidlDigital\Aviation\Entity\Airport\Gate;
 use Ramsey\Uuid\Uuid;
 
-final class Passenger
+class Passenger
 {
     /** @var Uuid */
     private $id;
