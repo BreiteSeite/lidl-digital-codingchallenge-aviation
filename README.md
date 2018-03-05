@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/ecb1340a92ce7e5e3fd1/maintainability)](https://codeclimate.com/github/BreiteSeite/lidl-digital-codingchallenge-aviation/maintainability)
+
 # Task
 
 ## BER 
