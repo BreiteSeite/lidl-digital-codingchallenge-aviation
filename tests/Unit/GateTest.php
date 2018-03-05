@@ -29,6 +29,7 @@ class GateTest extends TestCase
     {
         $passengerProphecy = $this->prophesize(Passenger::class);
 
+        // TODO: refactor to use specific exception classes instead of messages
         $this->expectExceptionMessage('Gate is not connected to the aircraft');
         $this->gate->passPassengerToAirport($passengerProphecy->reveal());
     }
